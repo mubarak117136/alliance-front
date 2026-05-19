@@ -120,7 +120,7 @@
 					Our support team is happy to help
 				</p>
 				<NuxtLink
-					to="/contact-us"
+					to="/common/contact-us"
 					class="inline-flex items-center gap-2 bg-primary text-white text-sm font-semibold px-5 py-2.5 rounded-full hover:bg-primary/90 transition-colors"
 				>
 					<Icon name="mdi:message-outline" size="16" />

@@ -38,6 +38,15 @@
 						v-else-if="item?.type === 'description_block'"
 						:data="item?.value"
 					/>
+					<IndexCustomTableBlock
+						v-else-if="item.type === 'custom_table_block'"
+						:data="item.value"
+					/>
+					<IndexVideoBlock
+						v-else-if="item.type === 'video_block'"
+						:data="item.value"
+						:index="idx"
+					/>
 				</div>
 
 				<!-- Empty state -->
@@ -79,8 +88,12 @@ const { data, pending } = await useAsyncData(
 		let currentPage = null;
 		await homeStore
 			.fetchCurrentPage({ html_path: route?.path })
-			.then((d) => { currentPage = d; })
-			.catch((e) => { console.log(e); });
+			.then((d) => {
+				currentPage = d;
+			})
+			.catch((e) => {
+				console.log(e);
+			});
 		return { currentPage };
 	},
 );
