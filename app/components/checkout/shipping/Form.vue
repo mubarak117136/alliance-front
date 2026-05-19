@@ -593,22 +593,15 @@
 							class="text-primary font-semibold hover:underline"
 							@click.stop
 							>Terms & Conditions</a
-						>,
+						>
+						and
 						<a
 							:href="getBasicSettings?.privacy_policy"
 							target="_blank"
 							class="text-primary font-semibold hover:underline"
 							@click.stop
-							>Privacy Policy</a
+							>Privacy Policy.</a
 						>
-						and
-						<a
-							:href="HOST + '/common/returns-refunds-policy'"
-							target="_blank"
-							class="text-primary font-semibold hover:underline"
-							@click.stop
-							>Returns & Refunds Policy</a
-						>.
 					</span>
 				</label>
 
@@ -677,22 +670,15 @@
 							class="text-primary font-semibold hover:underline"
 							@click.stop
 							>Terms & Conditions</a
-						>,
+						>
+						and
 						<a
 							:href="getBasicSettings?.privacy_policy"
 							target="_blank"
 							class="text-primary font-semibold hover:underline"
 							@click.stop
-							>Privacy Policy</a
+							>Privacy Policy.</a
 						>
-						and
-						<a
-							:href="HOST + '/common/returns-refunds-policy'"
-							target="_blank"
-							class="text-primary font-semibold hover:underline"
-							@click.stop
-							>Returns & Refunds Policy</a
-						>.
 					</span>
 				</label>
 

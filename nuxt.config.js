@@ -12,6 +12,7 @@ export default defineNuxtConfig({
 			sessionName: process.env.VUE_APP_SESSION_ID || "WELLMED_TOKEN",
 			siteName: process.env.VUE_APP_SITE_NAME || "WELLMED",
 			currency: process.env.VUE_APP_CURRENCY,
+			stripePublicKey: process.env.STRIPE_PUBLIC_KEY || "",
 		},
 	},
 

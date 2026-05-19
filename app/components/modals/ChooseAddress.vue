@@ -75,8 +75,12 @@
 											<Icon name="mdi:phone-outline" size="11" />
 											{{ item?.phone }}
 										</p>
+										<p v-if="item?.email" class="text-xs text-gray-500 flex items-center gap-1">
+											<Icon name="mdi:email-outline" size="11" />
+											{{ item?.email }}
+										</p>
 										<p class="text-xs text-gray-500 truncate mt-0.5">{{ item?.address }}</p>
-										<p class="text-xs text-gray-400">{{ item?.city_detail?.name }}, Bangladesh</p>
+										<p class="text-xs text-gray-400">{{ item?.city }}, {{ item?.state_detail?.name }}, {{ item?.country_detail?.name }}</p>
 									</div>
 
 									<!-- Select indicator -->

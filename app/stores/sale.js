@@ -492,6 +492,32 @@ export const useSaleStore = defineStore("saleStores", {
 				}
 			});
 		},
+		async stripePayment(payload) {
+			return new Promise((resolve, reject) => {
+				const config = useRuntimeConfig();
+				const userStore = useUserStore();
+
+				if (userStore.getAuthHeader) {
+					$fetch(`${PUBLIC_ORDERS_ENDPOINT}/stripe/`, {
+						method: "post",
+						baseURL: config.public.baseURL,
+						headers: { ...userStore.getAuthHeader },
+						body: payload,
+					})
+						.then((data) => resolve(data))
+						.catch((e) => reject(e));
+				} else {
+					const params = { session_id: userStore.getsessionId };
+					$fetch(`${PUBLIC_ORDERS_ENDPOINT}/stripe/${buildParams(params)}`, {
+						method: "post",
+						baseURL: config.public.baseURL,
+						body: payload,
+					})
+						.then((data) => resolve(data))
+						.catch((e) => reject(e));
+				}
+			});
+		},
 		async applyCoupon(payload) {
 			return new Promise((resolve, reject) => {
 				const config = useRuntimeConfig();

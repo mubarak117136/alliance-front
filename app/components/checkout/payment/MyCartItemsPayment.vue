@@ -134,7 +134,7 @@
 			<div class="flex items-center justify-between">
 				<span class="text-sm font-bold text-gray-700">Grand Total</span>
 				<span class="text-lg font-black text-gray-900"
-					>{{ getGrandTotal.toLocaleString() }}{{ currency }}</span
+					>{{ currency }}{{ getGrandTotal.toLocaleString() }}</span
 				>
 			</div>
 		</div>

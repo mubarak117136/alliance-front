@@ -17,8 +17,13 @@
 				<p class="text-xs text-gray-500 flex items-center gap-1">
 					<Icon name="mdi:phone-outline" size="11" />{{ data?.phone }}
 				</p>
+				<p v-if="data?.email" class="text-xs text-gray-500 flex items-center gap-1">
+					<Icon name="mdi:email-outline" size="11" />{{ data?.email }}
+				</p>
 				<p class="text-xs text-gray-500 truncate">{{ data?.address }}</p>
-				<p class="text-xs text-gray-400">{{ data?.city_detail?.name }}, Bangladesh</p>
+				<p class="text-xs text-gray-400">
+					{{ data?.city }}, {{ data?.state_detail?.name }}, {{ data?.country_detail?.name }}
+				</p>
 			</div>
 		</div>
 	</div>

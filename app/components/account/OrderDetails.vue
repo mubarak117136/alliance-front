@@ -334,7 +334,10 @@
 						v-if="orderDetail?.shipping_price"
 						class="flex items-center justify-between"
 					>
-						<span class="text-xs text-gray-400">Shipping</span>
+						<span class="text-xs text-gray-400">
+							Shipping
+							<span class="text-gray-300">({{ orderDetail.shipping_price.provider }} - {{ orderDetail.shipping_price.service_name }})</span>
+						</span>
 						<span class="text-xs text-gray-500">
 							{{
 								orderDetail.shipping_price.price == 0
@@ -419,14 +422,22 @@
 						<div class="flex flex-col gap-0.5">
 							<p class="text-xs font-medium text-gray-700">
 								{{ orderDetail.shipping_address.full_name }}
-								<span class="text-gray-300 mx-0.5">·</span>
+							</p>
+							<p class="text-[11px] text-gray-400 flex items-center gap-1">
+								<Icon name="mdi:phone-outline" size="11" />
 								{{ orderDetail.shipping_address.phone }}
+							</p>
+							<p v-if="orderDetail.shipping_address.email" class="text-[11px] text-gray-400 flex items-center gap-1">
+								<Icon name="mdi:email-outline" size="11" />
+								{{ orderDetail.shipping_address.email }}
 							</p>
 							<p class="text-[11px] text-gray-400">
 								{{ orderDetail.shipping_address.address }}
 							</p>
 							<p class="text-[11px] text-gray-400">
-								{{ orderDetail.shipping_address.city_detail?.name }}, Bangladesh
+								{{ orderDetail.shipping_address.city }},
+								{{ orderDetail.shipping_address.state_detail?.name }},
+								{{ orderDetail.shipping_address.country_detail?.name }}
 							</p>
 						</div>
 					</div>
