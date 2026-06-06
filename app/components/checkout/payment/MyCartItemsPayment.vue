@@ -158,8 +158,9 @@ const HOST = config.public.HOST;
 const currency = config.public.currency;
 
 const cartItemVariantResolver = (item) => {
-	if (props?.data?.status?.type == 1) return item?.variant_detail?.name;
-	return item?.variant_data?.name;
+	if (props?.data?.status?.type == 1)
+		return item?.variant_detail?.humanise_name || item?.variant_detail?.name;
+	return item?.variant_data?.humanise_name || item?.variant_data?.name;
 };
 
 const cartItemSinglePriceResolver = (item) => {

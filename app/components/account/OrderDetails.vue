@@ -520,8 +520,9 @@ const handlePayNow = () => {
 };
 
 const cartItemVariantResolver = (item) => {
-	if (orderDetail?.value?.status?.type == 1) return item?.variant_detail?.name;
-	return item?.variant_data?.name;
+	if (orderDetail?.value?.status?.type == 1)
+		return item?.variant_detail?.humanise_name || item?.variant_detail?.name;
+	return item?.variant_data?.humanise_name || item?.variant_data?.name;
 };
 
 const cartItemPriceResolver = (item) => {

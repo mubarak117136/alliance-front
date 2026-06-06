@@ -6,7 +6,7 @@
 				<!-- Background image -->
 				<img
 					src="/images/sign-in.png"
-					alt="Wellmed"
+					alt="Alliance"
 					class="absolute inset-0 w-full h-full object-cover"
 				/>
 				<!-- Subtle dark overlay at bottom -->
@@ -80,7 +80,7 @@
 				<!-- Heading -->
 				<div class="mb-8">
 					<h1 class="text-gray-900 text-2xl font-bold tracking-tight">
-						Sign in to Wellmed
+						Sign in to Alliance Fencing Equipment
 					</h1>
 					<p class="text-gray-500 text-sm mt-1">
 						Enter your credentials to access your account

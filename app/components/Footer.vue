@@ -44,9 +44,10 @@
 		<!-- Category mega section -->
 		<div v-if="topCategories.length" class="bg-footer">
 			<div class="max-w-[1280px] mx-auto px-6 sm:px-8 lg:px-12 py-12">
-
 				<!-- Categories with children -->
-				<div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-x-8 gap-y-10">
+				<div
+					class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-x-8 gap-y-10"
+				>
 					<div v-for="cat in catsWithChildren" :key="cat.id">
 						<NuxtLink
 							:to="`/stores/${cat.slug}`"
@@ -68,7 +69,10 @@
 				</div>
 
 				<!-- Categories without children — flat pill row -->
-				<div v-if="catsWithoutChildren.length" class="mt-10 pt-6 border-t border-white/10 flex flex-wrap gap-3">
+				<div
+					v-if="catsWithoutChildren.length"
+					class="mt-10 pt-6 border-t border-white/10 flex flex-wrap gap-3"
+				>
 					<NuxtLink
 						v-for="cat in catsWithoutChildren"
 						:key="cat.id"
@@ -78,7 +82,6 @@
 						{{ cat.name }}
 					</NuxtLink>
 				</div>
-
 			</div>
 		</div>
 
@@ -103,14 +106,17 @@
 								<span
 									class="text-white text-base font-extrabold tracking-tight"
 								>
-									{{ getBasicSettings?.company_name ?? "Wellmed" }}
+									{{
+										getBasicSettings?.company_name ??
+										"Alliance Fencing Equipment"
+									}}
 								</span>
 							</div>
 						</NuxtLink>
 
 						<p class="text-gray-500 text-xs leading-relaxed mb-6 max-w-[220px]">
-							Your trusted source for professional fencing equipment, gear,
-							and accessories — serving fencers of all levels worldwide.
+							Your trusted source for professional fencing equipment, gear, and
+							accessories — serving fencers of all levels worldwide.
 						</p>
 
 						<!-- Trust badges -->
@@ -228,7 +234,7 @@
 			>
 				<p class="text-gray-400 text-xs">
 					© {{ new Date().getFullYear() }}
-					{{ getBasicSettings?.company_name ?? "Wellmed" }}. All rights
+					{{ getBasicSettings?.company_name ?? "Alliance" }}. All rights
 					reserved.
 				</p>
 				<div class="flex items-center flex-wrap gap-2">

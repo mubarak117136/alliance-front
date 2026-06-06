@@ -5,7 +5,7 @@
 			<div class="relative w-full h-full rounded-2xl overflow-hidden">
 				<img
 					src="/images/sign-up.png"
-					alt="Wellmed"
+					alt="Alliance"
 					class="absolute inset-0 w-full h-full object-cover"
 				/>
 				<div
@@ -81,7 +81,7 @@
 						Create an account
 					</h1>
 					<p class="text-gray-500 text-sm mt-1">
-						Sign up to start shopping on Wellmed
+						Sign up to start shopping on Alliance Fencing Equipment
 					</p>
 				</div>
 

@@ -26,7 +26,8 @@
 				<h1
 					class="text-3xl sm:text-[44px] font-bold text-gray-800 leading-tight tracking-tight max-w-2xl"
 				>
-					Explore the <span class="text-primary">WellMed</span> Blogs
+					Explore the
+					<span class="text-primary">Alliance Fencing Equipment</span> Blogs
 				</h1>
 
 				<p

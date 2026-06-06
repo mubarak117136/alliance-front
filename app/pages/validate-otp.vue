@@ -5,7 +5,7 @@
 			<div class="relative w-full h-full rounded-2xl overflow-hidden">
 				<img
 					src="/images/otp.png"
-					alt="Wellmed"
+					alt="Alliance"
 					class="absolute inset-0 w-full h-full object-cover"
 				/>
 				<div

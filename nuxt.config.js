@@ -8,9 +8,9 @@ export default defineNuxtConfig({
 		public: {
 			HOST: process.env.VUE_APP_DEVHOST || "http://localhost:8000",
 			baseURL: process.env.VUE_APP_DEVHOST || "http://localhost:8000",
-			tokenName: process.env.VUE_APP_TOKEN_NAME || "WELLMED_TOKEN",
-			sessionName: process.env.VUE_APP_SESSION_ID || "WELLMED_TOKEN",
-			siteName: process.env.VUE_APP_SITE_NAME || "WELLMED",
+			tokenName: process.env.VUE_APP_TOKEN_NAME || "ALLIANCE_TOKEN",
+			sessionName: process.env.VUE_APP_SESSION_ID || "ALLIANCE_TOKEN",
+			siteName: process.env.VUE_APP_SITE_NAME || "ALLIANCE",
 			currency: process.env.VUE_APP_CURRENCY,
 			stripePublicKey: process.env.STRIPE_PUBLIC_KEY || "",
 		},

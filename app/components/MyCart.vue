@@ -122,10 +122,10 @@
 								<!-- Attributes -->
 								<div class="flex flex-wrap gap-1">
 									<span
-										v-if="item?.variant_detail?.name"
+										v-if="item?.variant_detail?.humanise_name || item?.variant_detail?.name"
 										class="inline-flex items-center text-[10px] font-semibold px-1.5 py-0.5 rounded-md bg-primary/8 text-primary border border-primary/10"
 									>
-										{{ item.variant_detail.name }}
+										{{ item?.variant_detail?.humanise_name || item?.variant_detail?.name }}
 									</span>
 									<span
 										v-if="!isObjectEmpty(item?.static_attribute_data)"
