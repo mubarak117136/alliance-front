@@ -44,43 +44,30 @@
 		<!-- Category mega section -->
 		<div v-if="topCategories.length" class="bg-footer">
 			<div class="max-w-[1280px] mx-auto px-6 sm:px-8 lg:px-12 py-12">
-				<!-- Categories with children -->
+				<!-- Multi-level category tree in masonry columns -->
 				<div
-					class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-x-8 gap-y-10"
+					class="columns-2 sm:columns-3 lg:columns-4 xl:columns-5 gap-x-8"
 				>
-					<div v-for="cat in catsWithChildren" :key="cat.id">
+					<div
+						v-for="cat in topCategories"
+						:key="cat.id"
+						class="break-inside-avoid"
+						:class="cat.children?.length ? 'mb-9' : 'mb-5'"
+					>
 						<NuxtLink
 							:to="`/stores/${cat.slug}`"
-							class="block font-condensed font-bold text-[15px] uppercase tracking-widest text-accent hover:text-accent-light transition-colors mb-2 pb-2 border-b border-white/10"
+							class="block font-condensed font-bold text-[16px] uppercase tracking-widest text-accent hover:text-accent-light transition-colors [overflow-wrap:anywhere]"
+							:class="
+								cat.children?.length ? 'pb-2 border-b border-white/10' : ''
+							"
 						>
 							{{ cat.name }}
 						</NuxtLink>
-						<ul class="mt-2 space-y-1.5">
-							<li v-for="child in cat.children" :key="child.id">
-								<NuxtLink
-									:to="`/stores/${child.slug}`"
-									class="block font-sans font-semibold text-[11px] uppercase tracking-wide text-white/60 hover:text-white transition-colors leading-snug"
-								>
-									{{ child.name }}
-								</NuxtLink>
-							</li>
-						</ul>
+						<FooterCategoryTree
+							v-if="cat.children?.length"
+							:items="cat.children"
+						/>
 					</div>
-				</div>
-
-				<!-- Categories without children — flat pill row -->
-				<div
-					v-if="catsWithoutChildren.length"
-					class="mt-10 pt-6 border-t border-white/10 flex flex-wrap gap-3"
-				>
-					<NuxtLink
-						v-for="cat in catsWithoutChildren"
-						:key="cat.id"
-						:to="`/stores/${cat.slug}`"
-						class="font-condensed font-bold text-[12px] uppercase tracking-widest text-accent hover:text-white border border-white/15 hover:border-white/40 px-3 py-1.5 transition-colors"
-					>
-						{{ cat.name }}
-					</NuxtLink>
 				</div>
 			</div>
 		</div>
@@ -275,12 +262,6 @@ const { getBasicSettings, getSocialSettings, getFooterNavs, getCategories } =
 
 const topCategories = computed(() =>
 	(getCategories.value ?? []).filter((c) => !c.parent_slug),
-);
-const catsWithChildren = computed(() =>
-	topCategories.value.filter((c) => c.children?.length),
-);
-const catsWithoutChildren = computed(() =>
-	topCategories.value.filter((c) => !c.children?.length),
 );
 
 const badges = [

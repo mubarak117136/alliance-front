@@ -256,7 +256,7 @@
 					>
 						<div class="relative">
 							<Icon
-								name="ri:shopping-basket-fill"
+								name="ri:shopping-bag-fill"
 								class="text-primary"
 								size="28"
 							/>
@@ -481,28 +481,11 @@
 				<div class="flex-1 overflow-y-auto">
 					<!-- Categories -->
 					<div class="border-b border-gray-100">
-						<p
-							class="px-4 py-2 text-xs font-bold text-gray-400 uppercase tracking-wider"
-						>
-							Categories
-						</p>
-						<ul>
-							<li v-for="cat in categories" :key="cat.slug">
-								<NuxtLink
-									:to="`/stores/${cat.slug}`"
-									class="flex items-center gap-3 px-4 py-3 hover:bg-gray-50 transition-colors border-b border-gray-50"
-									@click="drawerOpen = false"
-								>
-									<Icon
-										v-if="cat.font_icon"
-										:name="cat.font_icon"
-										size="18"
-										class="text-primary shrink-0"
-									/>
-									<span class="text-sm text-gray-800">{{ cat.name }}</span>
-								</NuxtLink>
-							</li>
-						</ul>
+						<MobileCategoryAccordion
+							:items="drawerCategories"
+							:active-slug="route.params.category ?? null"
+							:on-navigate="() => (drawerOpen = false)"
+						/>
 					</div>
 
 					<!-- Highlighted menus -->
@@ -641,6 +624,9 @@ function handleSearch() {
 
 const categories = computed(() => getCategories.value ?? []);
 const navCategories = computed(() => (getCategories.value ?? []).slice(0, 12));
+const drawerCategories = computed(() =>
+	categories.value.filter((c) => !c.parent_slug),
+);
 
 const accountSidebarNav = [
 	{

@@ -1,0 +1,592 @@
+- generic [ref=f3e3]:
+  - banner [ref=f3e4]:
+    - generic [ref=f3e6]:
+      - button [ref=f3e8] [cursor=pointer]
+      - link [ref=f3e10] [cursor=pointer]:
+        - /url: /
+        - img "alliance-fencing" [ref=f3e11]
+      - generic [ref=f3e12]:
+        - button
+        - button [ref=f3e13] [cursor=pointer]
+  - main [ref=f3e16]:
+    - generic [ref=f3e19]:
+      - generic [ref=f3e20]:
+        - generic [ref=f3e21]:
+          - heading "Men's" [level=1] [ref=f3e22]
+          - generic [ref=f3e23]: 0 results
+        - generic [ref=f3e24]:
+          - button "Filters" [ref=f3e25] [cursor=pointer]
+          - combobox [ref=f3e28] [cursor=pointer]:
+            - option "Default" [selected]
+            - option "Price (Low to High)"
+            - option "Price (High to Low)"
+            - option "Old to New"
+            - option "New to Old"
+      - generic [ref=f3e29]:
+        - paragraph [ref=f3e32]: No products found
+        - paragraph [ref=f3e33]: Try adjusting or clearing your filters
+        - button "Clear filters" [ref=f3e34] [cursor=pointer]
+  - contentinfo [ref=f3e35]:
+    - generic [ref=f3e37]:
+      - generic [ref=f3e40]:
+        - paragraph [ref=f3e41]: Need help with your order?
+        - paragraph [ref=f3e42]: Our support team is always ready to assist you.
+      - generic [ref=f3e43]:
+        - link "(415) 666-3606" [ref=f3e44] [cursor=pointer]:
+          - /url: tel:(415) 666-3606
+        - link "alliancegear@gmail.com" [ref=f3e45] [cursor=pointer]:
+          - /url: mailto:alliancegear@gmail.com
+    - generic [ref=f3e48]:
+      - generic [ref=f3e49]:
+        - link "STARTER SET" [ref=f3e50] [cursor=pointer]:
+          - /url: /stores/starter-set
+        - list [ref=f3e51]:
+          - listitem [ref=f3e52]:
+            - link "Epee Set" [ref=f3e53] [cursor=pointer]:
+              - /url: /stores/epee-set
+          - listitem [ref=f3e54]:
+            - link "Foil Set" [ref=f3e55] [cursor=pointer]:
+              - /url: /stores/foil-set
+          - listitem [ref=f3e56]:
+            - link "Sabre Set" [ref=f3e57] [cursor=pointer]:
+              - /url: /stores/sabre-set
+      - link "PBT LAME" [ref=f3e59] [cursor=pointer]:
+        - /url: /stores/pbt-lame
+      - generic [ref=f3e60]:
+        - link "BAGS & COVERS" [ref=f3e61] [cursor=pointer]:
+          - /url: /stores/bags-covers
+        - list [ref=f3e62]:
+          - listitem [ref=f3e63]:
+            - link "Carry Bag & Blade Covers" [ref=f3e64] [cursor=pointer]:
+              - /url: /stores/carry-bag-blade-covers
+          - listitem [ref=f3e65]:
+            - link "Wheel Bags" [ref=f3e66] [cursor=pointer]:
+              - /url: /stores/wheel-bags
+      - generic [ref=f3e67]:
+        - link "GLOVES" [ref=f3e68] [cursor=pointer]:
+          - /url: /stores/gloves
+        - list [ref=f3e69]:
+          - listitem [ref=f3e70]:
+            - link "Foil / Epee Glove" [ref=f3e71] [cursor=pointer]:
+              - /url: /stores/foil-epee-glove
+          - listitem [ref=f3e72]:
+            - link "Sabre Glove" [ref=f3e73] [cursor=pointer]:
+              - /url: /stores/sabre-glove
+      - generic [ref=f3e74]:
+        - link "MASKS" [ref=f3e75] [cursor=pointer]:
+          - /url: /stores/masks
+        - list [ref=f3e76]:
+          - listitem [ref=f3e77]:
+            - link "Epee Mask" [ref=f3e78] [cursor=pointer]:
+              - /url: /stores/epee-mask
+          - listitem [ref=f3e79]:
+            - link "Foil Mask" [ref=f3e80] [cursor=pointer]:
+              - /url: /stores/foil-mask
+          - listitem [ref=f3e81]:
+            - link "Sabre Mask" [ref=f3e82] [cursor=pointer]:
+              - /url: /stores/sabre-mask
+          - listitem [ref=f3e83]:
+            - link "Mask Accessories" [ref=f3e84] [cursor=pointer]:
+              - /url: /stores/mask-accessories
+      - generic [ref=f3e85]:
+        - link "UNIFORMS" [ref=f3e86] [cursor=pointer]:
+          - /url: /stores/uniforms
+        - list [ref=f3e87]:
+          - listitem [ref=f3e88]:
+            - link "Breeches" [ref=f3e89] [cursor=pointer]:
+              - /url: /stores/breeches
+          - listitem [ref=f3e90]:
+            - link "Chest Protectors" [ref=f3e91] [cursor=pointer]:
+              - /url: /stores/chest-protectors
+          - listitem [ref=f3e92]:
+            - link "Jackets" [ref=f3e93] [cursor=pointer]:
+              - /url: /stores/jackets
+          - listitem [ref=f3e94]:
+            - link "Lames" [ref=f3e95] [cursor=pointer]:
+              - /url: /stores/lames
+          - listitem [ref=f3e96]:
+            - link "Plastrons" [ref=f3e97] [cursor=pointer]:
+              - /url: /stores/plastrons
+      - link "SHOES & SOCKS" [ref=f3e99] [cursor=pointer]:
+        - /url: /stores/shoes-socks
+      - generic [ref=f3e100]:
+        - link "BLADES" [ref=f3e101] [cursor=pointer]:
+          - /url: /stores/blades
+        - list [ref=f3e102]:
+          - listitem [ref=f3e103]:
+            - link "EPEE" [ref=f3e104] [cursor=pointer]:
+              - /url: /stores/epee
+            - list [ref=f3e105]:
+              - listitem [ref=f3e106]:
+                - link "Epee Blade (Bare)" [ref=f3e107] [cursor=pointer]:
+                  - /url: /stores/epee-blade-bare
+              - listitem [ref=f3e108]:
+                - link "Practice Epee" [ref=f3e109] [cursor=pointer]:
+                  - /url: /stores/practice-epee
+              - listitem [ref=f3e110]:
+                - link "Epee Blade Wired" [ref=f3e111] [cursor=pointer]:
+                  - /url: /stores/epee-blade-wired
+              - listitem [ref=f3e112]:
+                - link "FIE Epee Blade" [ref=f3e113] [cursor=pointer]:
+                  - /url: /stores/fie-epee-blade
+          - listitem [ref=f3e114]:
+            - link "FOIL" [ref=f3e115] [cursor=pointer]:
+              - /url: /stores/foil
+            - list [ref=f3e116]:
+              - listitem [ref=f3e117]:
+                - link "Foil Blades (Bare)" [ref=f3e118] [cursor=pointer]:
+                  - /url: /stores/foil-blades-bare
+              - listitem [ref=f3e119]:
+                - link "FIE Foil Blade" [ref=f3e120] [cursor=pointer]:
+                  - /url: /stores/fie-foil-blade
+              - listitem [ref=f3e121]:
+                - link "Foil Blade Wired" [ref=f3e122] [cursor=pointer]:
+                  - /url: /stores/foil-blade-wired
+          - listitem [ref=f3e123]:
+            - link "SABRE" [ref=f3e124] [cursor=pointer]:
+              - /url: /stores/sabre
+            - list [ref=f3e125]:
+              - listitem [ref=f3e126]:
+                - link "FIE & NON FIE" [ref=f3e127] [cursor=pointer]:
+                  - /url: /stores/fie-non-fie
+      - generic [ref=f3e128]:
+        - link "COMPLETE WEAPONS" [ref=f3e129] [cursor=pointer]:
+          - /url: /stores/complete-weapons
+        - list [ref=f3e130]:
+          - listitem [ref=f3e131]:
+            - link "Electric Foil" [ref=f3e132] [cursor=pointer]:
+              - /url: /stores/electric-foil
+          - listitem [ref=f3e133]:
+            - link "Non Electric Epee" [ref=f3e134] [cursor=pointer]:
+              - /url: /stores/non-electric-epee
+          - listitem [ref=f3e135]:
+            - link "Non Electric Foil" [ref=f3e136] [cursor=pointer]:
+              - /url: /stores/non-electric-foil
+          - listitem [ref=f3e137]:
+            - link "Non Electric Sabre" [ref=f3e138] [cursor=pointer]:
+              - /url: /stores/non-electric-sabre
+          - listitem [ref=f3e139]:
+            - link "Electric Epee" [ref=f3e140] [cursor=pointer]:
+              - /url: /stores/electric-epee
+          - listitem [ref=f3e141]:
+            - link "Electric Sabre" [ref=f3e142] [cursor=pointer]:
+              - /url: /stores/electric-sabre
+      - generic [ref=f3e143]:
+        - link "BLADE POINT PARTS" [ref=f3e144] [cursor=pointer]:
+          - /url: /stores/blade-point-parts
+        - list [ref=f3e145]:
+          - listitem [ref=f3e146]:
+            - link "Epee Parts" [ref=f3e147] [cursor=pointer]:
+              - /url: /stores/epee-parts
+            - list [ref=f3e148]:
+              - listitem [ref=f3e149]:
+                - link "French / China" [ref=f3e150] [cursor=pointer]:
+                  - /url: /stores/french-china
+              - listitem [ref=f3e151]:
+                - link "German" [ref=f3e152] [cursor=pointer]:
+                  - /url: /stores/german
+          - listitem [ref=f3e153]:
+            - link "Foil Parts" [ref=f3e154] [cursor=pointer]:
+              - /url: /stores/foil-parts
+            - list [ref=f3e155]:
+              - listitem [ref=f3e156]:
+                - link "French / China" [ref=f3e157] [cursor=pointer]:
+                  - /url: /stores/french-china-2
+              - listitem [ref=f3e158]:
+                - link "German" [ref=f3e159] [cursor=pointer]:
+                  - /url: /stores/german-2
+          - listitem [ref=f3e160]:
+            - link "Rubber Tips" [ref=f3e161] [cursor=pointer]:
+              - /url: /stores/rubber-tips
+      - generic [ref=f3e162]:
+        - link "BODYCORDS & SOCKETS" [ref=f3e163] [cursor=pointer]:
+          - /url: /stores/bodycords-sockets
+        - list [ref=f3e164]:
+          - listitem [ref=f3e165]:
+            - link "Body Cord Parts" [ref=f3e166] [cursor=pointer]:
+              - /url: /stores/body-cord-parts
+          - listitem [ref=f3e167]:
+            - link "Epee Body Cord" [ref=f3e168] [cursor=pointer]:
+              - /url: /stores/epee-body-cord
+          - listitem [ref=f3e169]:
+            - link "Foil / Sabre Body Cord" [ref=f3e170] [cursor=pointer]:
+              - /url: /stores/foil-sabre-body-cord
+          - listitem [ref=f3e171]:
+            - link "Mask Wire" [ref=f3e172] [cursor=pointer]:
+              - /url: /stores/mask-wire
+          - listitem [ref=f3e173]:
+            - link "Socket" [ref=f3e174] [cursor=pointer]:
+              - /url: /stores/socket
+            - list [ref=f3e175]:
+              - listitem [ref=f3e176]:
+                - link "Epee Sockets" [ref=f3e177] [cursor=pointer]:
+                  - /url: /stores/epee-sockets
+              - listitem [ref=f3e178]:
+                - link "Foil / Sabre Sockets" [ref=f3e179] [cursor=pointer]:
+                  - /url: /stores/foil-sabre-sockets
+      - generic [ref=f3e180]:
+        - link "GRIPS & POMMELS" [ref=f3e181] [cursor=pointer]:
+          - /url: /stores/grips-pommels
+        - list [ref=f3e182]:
+          - listitem [ref=f3e183]:
+            - link "Pistol Grip" [ref=f3e184] [cursor=pointer]:
+              - /url: /stores/pistol-grip
+          - listitem [ref=f3e185]:
+            - link "Pommels" [ref=f3e186] [cursor=pointer]:
+              - /url: /stores/pommels-2
+          - listitem [ref=f3e187]:
+            - link "French / Sabre Handle" [ref=f3e188] [cursor=pointer]:
+              - /url: /stores/french-sabre-handle
+          - listitem [ref=f3e189]:
+            - link "Parts for Grips" [ref=f3e190] [cursor=pointer]:
+              - /url: /stores/parts-for-grips
+      - generic [ref=f3e191]:
+        - link "GUARDS / PADDING" [ref=f3e192] [cursor=pointer]:
+          - /url: /stores/guards-padding
+        - list [ref=f3e193]:
+          - listitem [ref=f3e194]:
+            - link "Epee" [ref=f3e195] [cursor=pointer]:
+              - /url: /stores/epee-2
+          - listitem [ref=f3e196]:
+            - link "Foil" [ref=f3e197] [cursor=pointer]:
+              - /url: /stores/foil-2
+          - listitem [ref=f3e198]:
+            - link "Sabre" [ref=f3e199] [cursor=pointer]:
+              - /url: /stores/sabre-2
+      - generic [ref=f3e200]:
+        - link "REPAIR & TESTING" [ref=f3e201] [cursor=pointer]:
+          - /url: /stores/repair-testing
+        - list [ref=f3e202]:
+          - listitem [ref=f3e203]:
+            - link "Repair Kits" [ref=f3e204] [cursor=pointer]:
+              - /url: /stores/repair-kits
+          - listitem [ref=f3e205]:
+            - link "Tape" [ref=f3e206] [cursor=pointer]:
+              - /url: /stores/tape
+          - listitem [ref=f3e207]:
+            - link "Testing Equipment" [ref=f3e208] [cursor=pointer]:
+              - /url: /stores/testing-equipment
+          - listitem [ref=f3e209]:
+            - link "Tools" [ref=f3e210] [cursor=pointer]:
+              - /url: /stores/tools
+          - listitem [ref=f3e211]:
+            - link "Weight, Gaiges, Signalling Box" [ref=f3e212] [cursor=pointer]:
+              - /url: /stores/weight-gaiges-signalling-box
+      - link "RECOVERY GEAR" [ref=f3e214] [cursor=pointer]:
+        - /url: /stores/recovery-gear
+      - generic [ref=f3e215]:
+        - link "CHILDREN GEAR" [ref=f3e216] [cursor=pointer]:
+          - /url: /stores/children-gear
+        - list [ref=f3e217]:
+          - listitem [ref=f3e218]:
+            - link "Epee" [ref=f3e219] [cursor=pointer]:
+              - /url: /stores/epee-3
+          - listitem [ref=f3e220]:
+            - link "Fencing Piste and Accessories" [ref=f3e221] [cursor=pointer]:
+              - /url: /stores/fencing-piste-and-accessories
+          - listitem [ref=f3e222]:
+            - link "Foil" [ref=f3e223] [cursor=pointer]:
+              - /url: /stores/foil-3
+          - listitem [ref=f3e224]:
+            - link "Mask" [ref=f3e225] [cursor=pointer]:
+              - /url: /stores/mask
+          - listitem [ref=f3e226]:
+            - link "Sabre" [ref=f3e227] [cursor=pointer]:
+              - /url: /stores/sabre-3
+      - generic [ref=f3e228]:
+        - link "COACH GEAR" [ref=f3e229] [cursor=pointer]:
+          - /url: /stores/coach-gear
+        - list [ref=f3e230]:
+          - listitem [ref=f3e231]:
+            - link "Coach Mask, Protector & Gloves" [ref=f3e232] [cursor=pointer]:
+              - /url: /stores/coach-mask-protector-gloves
+      - generic [ref=f3e233]:
+        - link "HARUT" [ref=f3e234] [cursor=pointer]:
+          - /url: /stores/harut
+        - list [ref=f3e235]:
+          - listitem [ref=f3e236]:
+            - link "Harut French Handle" [ref=f3e237] [cursor=pointer]:
+              - /url: /stores/harut-french-handle
+          - listitem [ref=f3e238]:
+            - link "Harut Sabre Handle" [ref=f3e239] [cursor=pointer]:
+              - /url: /stores/harut-sabre-handle
+      - generic [ref=f3e240]:
+        - link "PBT" [ref=f3e241] [cursor=pointer]:
+          - /url: /stores/pbt
+        - list [ref=f3e242]:
+          - listitem [ref=f3e243]:
+            - link "Electric Jackets" [ref=f3e244] [cursor=pointer]:
+              - /url: /stores/electric-jackets
+            - list [ref=f3e245]:
+              - listitem [ref=f3e246]:
+                - link "Foil Lame" [ref=f3e247] [cursor=pointer]:
+                  - /url: /stores/foil-lame
+              - listitem [ref=f3e248]:
+                - link "Name Printing" [ref=f3e249] [cursor=pointer]:
+                  - /url: /stores/name-printing
+              - listitem [ref=f3e250]:
+                - link "Sabre Lame" [ref=f3e251] [cursor=pointer]:
+                  - /url: /stores/sabre-lame
+              - listitem [ref=f3e252]:
+                - link "Wireless T'shirt" [ref=f3e253] [cursor=pointer]:
+                  - /url: /stores/wireless-tshirt
+          - listitem [ref=f3e254]:
+            - link "Fencing Whee-Bags" [ref=f3e255] [cursor=pointer]:
+              - /url: /stores/fencing-whee-bags
+            - list [ref=f3e256]:
+              - listitem [ref=f3e257]:
+                - link "Roll Bags" [ref=f3e258] [cursor=pointer]:
+                  - /url: /stores/roll-bags
+          - listitem [ref=f3e259]:
+            - link "Fencing Gloves & Cuffs" [ref=f3e260] [cursor=pointer]:
+              - /url: /stores/fencing-gloves-cuffs
+            - list [ref=f3e261]:
+              - listitem [ref=f3e262]:
+                - link "3 Weapon Gloves" [ref=f3e263] [cursor=pointer]:
+                  - /url: /stores/3-weapon-gloves-2
+              - listitem [ref=f3e264]:
+                - link "Sabre Glove" [ref=f3e265] [cursor=pointer]:
+                  - /url: /stores/sabre-glove-2
+          - listitem [ref=f3e266]:
+            - link "Fencing Masks" [ref=f3e267] [cursor=pointer]:
+              - /url: /stores/fencing-masks-2
+            - list [ref=f3e268]:
+              - listitem [ref=f3e269]:
+                - link "Accessories" [ref=f3e270] [cursor=pointer]:
+                  - /url: /stores/accessories-2
+              - listitem [ref=f3e271]:
+                - link "Epee Masks" [ref=f3e272] [cursor=pointer]:
+                  - /url: /stores/epee-masks-2
+              - listitem [ref=f3e273]:
+                - link "Foil Masks & Accessories" [ref=f3e274] [cursor=pointer]:
+                  - /url: /stores/foil-masks-accessories
+              - listitem [ref=f3e275]:
+                - link "Sabre Masks" [ref=f3e276] [cursor=pointer]:
+                  - /url: /stores/sabre-masks-2
+          - listitem [ref=f3e277]:
+            - link "Fencing Uniforms & Protectors" [ref=f3e278] [cursor=pointer]:
+              - /url: /stores/fencing-uniforms-protectors
+            - list [ref=f3e279]:
+              - listitem [ref=f3e280]:
+                - link "350 N Uniforms" [ref=f3e281] [cursor=pointer]:
+                  - /url: /stores/350-n-uniforms
+                - list [ref=f3e282]:
+                  - listitem [ref=f3e283]:
+                    - link "Children's" [ref=f3e284] [cursor=pointer]:
+                      - /url: /stores/childrens
+                  - listitem [ref=f3e285]:
+                    - link "Men's" [ref=f3e286] [cursor=pointer]:
+                      - /url: /stores/mens
+                  - listitem [ref=f3e287]:
+                    - link "Women's" [ref=f3e288] [cursor=pointer]:
+                      - /url: /stores/womens
+              - listitem [ref=f3e289]:
+                - link "800 N FIE Uniforms" [ref=f3e290] [cursor=pointer]:
+                  - /url: /stores/800-n-fie-uniforms
+              - listitem [ref=f3e291]:
+                - link "Breast & Heel Protectors" [ref=f3e292] [cursor=pointer]:
+                  - /url: /stores/breast-heel-protectors
+              - listitem [ref=f3e293]:
+                - link "Underplastrons" [ref=f3e294] [cursor=pointer]:
+                  - /url: /stores/underplastrons
+          - listitem [ref=f3e295]:
+            - link "Grips/Pommels/Guards/Padding/Sockets/Tips & Points" [ref=f3e296] [cursor=pointer]:
+              - /url: /stores/gripspommelsguardspaddingsocketstips-points
+            - list [ref=f3e297]:
+              - listitem [ref=f3e298]:
+                - link "Grips & Pommels" [ref=f3e299] [cursor=pointer]:
+                  - /url: /stores/grips-pommels-2
+              - listitem [ref=f3e300]:
+                - link "Guards & Paddings" [ref=f3e301] [cursor=pointer]:
+                  - /url: /stores/guards-paddings
+              - listitem [ref=f3e302]:
+                - link "Sockets" [ref=f3e303] [cursor=pointer]:
+                  - /url: /stores/sockets-2
+              - listitem [ref=f3e304]:
+                - link "Tips, Wire Parts & Mandrels" [ref=f3e305] [cursor=pointer]:
+                  - /url: /stores/tips-wire-parts-mandrels
+          - listitem [ref=f3e306]:
+            - link "Body Wires & Parts" [ref=f3e307] [cursor=pointer]:
+              - /url: /stores/body-wires-parts-2
+            - list [ref=f3e308]:
+              - listitem [ref=f3e309]:
+                - link "Body Wires" [ref=f3e310] [cursor=pointer]:
+                  - /url: /stores/body-wires-3
+              - listitem [ref=f3e311]:
+                - link "Parts" [ref=f3e312] [cursor=pointer]:
+                  - /url: /stores/parts-2
+          - listitem [ref=f3e313]:
+            - link "Coach Gear" [ref=f3e314] [cursor=pointer]:
+              - /url: /stores/coach-gear-2
+            - list [ref=f3e315]:
+              - listitem [ref=f3e316]:
+                - link "Coach Jacket" [ref=f3e317] [cursor=pointer]:
+                  - /url: /stores/coach-jacket
+              - listitem [ref=f3e318]:
+                - link "Legs & Arms" [ref=f3e319] [cursor=pointer]:
+                  - /url: /stores/legs-arms
+              - listitem [ref=f3e320]:
+                - link "Masks / Padding" [ref=f3e321] [cursor=pointer]:
+                  - /url: /stores/masks-padding
+          - listitem [ref=f3e322]:
+            - link "Fencing Socks" [ref=f3e323] [cursor=pointer]:
+              - /url: /stores/fencing-socks
+            - list [ref=f3e324]:
+              - listitem [ref=f3e325]:
+                - link "Socks" [ref=f3e326] [cursor=pointer]:
+                  - /url: /stores/socks
+      - generic [ref=f3e327]:
+        - link "BALESTRA" [ref=f3e328] [cursor=pointer]:
+          - /url: /stores/balestra
+        - list [ref=f3e329]:
+          - listitem [ref=f3e330]:
+            - link "Uniform" [ref=f3e331] [cursor=pointer]:
+              - /url: /stores/uniform
+          - listitem [ref=f3e332]:
+            - link "Gloves" [ref=f3e333] [cursor=pointer]:
+              - /url: /stores/gloves-2
+          - listitem [ref=f3e334]:
+            - link "Shoes / Socks" [ref=f3e335] [cursor=pointer]:
+              - /url: /stores/shoes-socks-2
+      - generic [ref=f3e336]:
+        - link "ALLIANCE" [ref=f3e337] [cursor=pointer]:
+          - /url: /stores/alliance
+        - list [ref=f3e338]:
+          - listitem [ref=f3e339]:
+            - link "Favero Reel & Parts" [ref=f3e340] [cursor=pointer]:
+              - /url: /stores/favero-reel-parts
+          - listitem [ref=f3e341]:
+            - link "Scoring Equipment" [ref=f3e342] [cursor=pointer]:
+              - /url: /stores/scoring-equipment
+          - listitem [ref=f3e343]:
+            - link "Target" [ref=f3e344] [cursor=pointer]:
+              - /url: /stores/target
+      - generic [ref=f3e345]:
+        - link "NEGRINI" [ref=f3e346] [cursor=pointer]:
+          - /url: /stores/negrini
+        - list [ref=f3e347]:
+          - listitem [ref=f3e348]:
+            - link "Body Wires" [ref=f3e349] [cursor=pointer]:
+              - /url: /stores/body-wires-2
+          - listitem [ref=f3e350]:
+            - link "Electric Sabre Guard" [ref=f3e351] [cursor=pointer]:
+              - /url: /stores/electric-sabre-guard
+          - listitem [ref=f3e352]:
+            - link "Fencing Masks" [ref=f3e353] [cursor=pointer]:
+              - /url: /stores/fencing-masks-3
+            - list [ref=f3e354]:
+              - listitem [ref=f3e355]:
+                - link "Epee Mask" [ref=f3e356] [cursor=pointer]:
+                  - /url: /stores/epee-mask-2
+              - listitem [ref=f3e357]:
+                - link "Foil Mask" [ref=f3e358] [cursor=pointer]:
+                  - /url: /stores/foil-mask-2
+              - listitem [ref=f3e359]:
+                - link "Sabre Mask" [ref=f3e360] [cursor=pointer]:
+                  - /url: /stores/sabre-mask-2
+          - listitem [ref=f3e361]:
+            - link "Foil / Epee Points & Parts" [ref=f3e362] [cursor=pointer]:
+              - /url: /stores/foil-epee-points-parts
+          - listitem [ref=f3e363]:
+            - link "Grips" [ref=f3e364] [cursor=pointer]:
+              - /url: /stores/grips
+          - listitem [ref=f3e365]:
+            - link "Negrini Jacket, Breeches, Lames" [ref=f3e366] [cursor=pointer]:
+              - /url: /stores/negrini-jacket-breeches-lames
+      - generic [ref=f3e367]:
+        - link "SCHERMASPORT" [ref=f3e368] [cursor=pointer]:
+          - /url: /stores/schermasport
+        - list [ref=f3e369]:
+          - listitem [ref=f3e370]:
+            - link "Grip / Guard / Pommel" [ref=f3e371] [cursor=pointer]:
+              - /url: /stores/grip-guard-pommel
+          - listitem [ref=f3e372]:
+            - link "Blade point parts" [ref=f3e373] [cursor=pointer]:
+              - /url: /stores/blade-point-parts-2
+    - generic [ref=f3e376]:
+      - generic [ref=f3e377]:
+        - link [ref=f3e378] [cursor=pointer]:
+          - /url: /
+          - img "alliance-fencing" [ref=f3e379]
+        - paragraph [ref=f3e380]: Your trusted source for professional fencing equipment, gear, and accessories — serving fencers of all levels worldwide.
+        - generic [ref=f3e381]:
+          - generic [ref=f3e382]: Authorized Retailer
+          - generic [ref=f3e385]: Fast US Shipping
+          - generic [ref=f3e388]: Secure Payments
+        - generic [ref=f3e391]:
+          - link "Facebook" [ref=f3e392] [cursor=pointer]:
+            - /url: https://facebook.com
+          - link "WhatsApp" [ref=f3e393] [cursor=pointer]:
+            - /url: https://whatsapp.com
+          - link "Instagram" [ref=f3e394] [cursor=pointer]:
+            - /url: https://instagram.com
+      - generic [ref=f3e395]:
+        - heading "IMPORTANT" [level=4] [ref=f3e396]
+        - list [ref=f3e397]:
+          - listitem [ref=f3e398]:
+            - link "PRIVACY POLICY" [ref=f3e399] [cursor=pointer]:
+              - /url: /common/privacy-policy
+          - listitem [ref=f3e401]:
+            - link "TERMS OF USE" [ref=f3e402] [cursor=pointer]:
+              - /url: /common/terms-of-use
+          - listitem [ref=f3e404]:
+            - link "EXCHANGE & RETURN" [ref=f3e405] [cursor=pointer]:
+              - /url: /common/exchange-return-policies
+          - listitem [ref=f3e407]:
+            - link "SHIPPING AND DELIVERY" [ref=f3e408] [cursor=pointer]:
+              - /url: /common/shipping-and-delivery
+          - listitem [ref=f3e410]:
+            - link "PRIVACY AND SECURITY" [ref=f3e411] [cursor=pointer]:
+              - /url: /common/privacy-and-security
+      - generic [ref=f3e413]:
+        - heading "QUICK LINK" [level=4] [ref=f3e414]
+        - list [ref=f3e415]:
+          - listitem [ref=f3e416]:
+            - link "LIMITED WARRANTY" [ref=f3e417] [cursor=pointer]:
+              - /url: /common/limited-warranty
+          - listitem [ref=f3e419]:
+            - link "WARNING" [ref=f3e420] [cursor=pointer]:
+              - /url: /common/warning
+          - listitem [ref=f3e422]:
+            - link "BLAISE FRERES" [ref=f3e423] [cursor=pointer]:
+              - /url: /common/blaise-freres
+          - listitem [ref=f3e425]:
+            - link "CLUB DISCOUNTS" [ref=f3e426] [cursor=pointer]:
+              - /url: /common/club-discounts
+          - listitem [ref=f3e428]:
+            - link "TRACK PACKAGE" [ref=f3e429] [cursor=pointer]:
+              - /url: /common/track-package
+      - generic [ref=f3e431]:
+        - heading "HELP CENTER" [level=4] [ref=f3e432]
+        - list [ref=f3e433]:
+          - listitem [ref=f3e434]:
+            - link "CONTACT US" [ref=f3e435] [cursor=pointer]:
+              - /url: /common/contact-us
+          - listitem [ref=f3e437]:
+            - link "FAQ'S" [ref=f3e438] [cursor=pointer]:
+              - /url: /faqs
+          - listitem [ref=f3e440]:
+            - link "BLOGS" [ref=f3e441] [cursor=pointer]:
+              - /url: /blogs
+          - listitem [ref=f3e443]:
+            - link "SIZE CHART" [ref=f3e444] [cursor=pointer]:
+              - /url: /common/size-chart
+      - generic [ref=f3e446]:
+        - heading "Find Us" [level=4] [ref=f3e447]
+        - generic [ref=f3e448]: 3201 BALBOA ST, SAN FRANCISCO - CA 94121
+        - generic [ref=f3e451]: Support 24/7
+    - generic [ref=f3e454]:
+      - paragraph [ref=f3e455]: © 2026 ALLIANCE FENCING EQUIPMENT. All rights reserved.
+      - generic [ref=f3e456]:
+        - generic [ref=f3e458]:
+          - paragraph [ref=f3e459]: Visa
+          - paragraph [ref=f3e460]: Credit & Debit
+        - generic [ref=f3e462]:
+          - paragraph [ref=f3e463]: Mastercard
+          - paragraph [ref=f3e464]: Credit & Debit
+        - generic [ref=f3e466]:
+          - paragraph [ref=f3e467]: PayPal
+          - paragraph [ref=f3e468]: Secure Checkout
+        - generic [ref=f3e470]:
+          - paragraph [ref=f3e471]: Amex
+          - paragraph [ref=f3e472]: Credit Card

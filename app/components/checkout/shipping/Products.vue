@@ -120,7 +120,7 @@
 
 		<!-- Empty -->
 		<div v-else class="flex flex-col items-center py-10 text-center px-4">
-			<Icon name="mdi:cart-outline" size="28" class="text-gray-300 mb-2" />
+			<Icon name="ri:shopping-bag-line" size="28" class="text-gray-300 mb-2" />
 			<p class="text-gray-400 text-sm font-medium">Your cart is empty</p>
 		</div>
 	</div>

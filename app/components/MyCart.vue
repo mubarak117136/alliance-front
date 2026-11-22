@@ -29,7 +29,7 @@
 									class="w-10 h-10 rounded-2xl bg-primary flex items-center justify-center shadow-md shadow-primary/25"
 								>
 									<Icon
-										name="ri:shopping-basket-fill"
+										name="ri:shopping-bag-fill"
 										size="20"
 										class="text-white"
 									/>
@@ -198,7 +198,7 @@
 						<div
 							class="w-20 h-20 rounded-3xl bg-gray-100 flex items-center justify-center mb-5"
 						>
-							<Icon name="mdi:cart-outline" size="34" class="text-gray-300" />
+							<Icon name="ri:shopping-bag-line" size="34" class="text-gray-300" />
 						</div>
 						<p class="text-gray-800 font-black text-base mb-1.5">
 							Your cart is empty
